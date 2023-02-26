@@ -13,6 +13,7 @@ Features
 
 
 ```bash
+  clone it 
   cd chessboard
   npm install 
   npm start
