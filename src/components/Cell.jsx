@@ -5,7 +5,7 @@ const Cell = ({ x, y, isDark, isHighlighted, onClick }) => {
     const cellClasses = classNames(
         'w-12 h-12 flex items-center justify-center text-lg font-bold',
         {
-            'bg-black': isDark,
+            'bg-gray-400': isDark,
             'bg-gray-200': !isDark,
             'bg-green-300': isHighlighted,
         }

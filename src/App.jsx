@@ -22,10 +22,10 @@ const App = () => {
         <meta name="twitter:card" content="summary_large_image" />
       </Helmet>
       <div
-        className={`flex flex-col items-center justify-center min-h-screen ${darkMode ? 'bg-gray-800 text-[#FF0303]' : 'bg-gray-100 text-[#FF0303]'
+        className={`flex flex-col items-center justify-center min-h-screen ${darkMode ? 'bg-gray-800 text-white' : 'bg-gray-100'
           }`}
       >
-        <h1 className="text-2xl font-bold mb-4">Chess Board</h1>
+        <h1 className="mb-4 text-2xl font-bold">Chess Board</h1>
         <Board />
 
 
@@ -44,7 +44,7 @@ const App = () => {
 
 
               <div
-                className={`w-10 h-6 bg-gray-200 rounded-full shadow-inner ${darkMode ? 'bg-black' : ''
+                className={`w-10 h-6 bg-gray-200 rounded-full shadow-inner ${darkMode ? 'bg-gray-600' : ''
                   }`}
               ></div>
               <div
