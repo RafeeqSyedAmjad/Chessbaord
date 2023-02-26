@@ -9,14 +9,12 @@ Features
 - Have meta tags for link previews
 - Dark mode
 
-## Installation
+## how to start the project
 
-Install my-project with npm
 
 ```bash
-  npm install 
   cd chessboard
-  
+  npm install 
   npm start
 
 
