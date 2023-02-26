@@ -17,9 +17,10 @@ const App = () => {
         <meta name="description" content="A chess board built with React and Tailwind CSS." />
         <meta property="og:title" content="Chess Board" />
         <meta property="og:description" content="A chess board built with React and Tailwind CSS." />
-        <meta property="og:image" content="https://example.com/image.jpg" />
-        <meta property="og:url" content="https://example.com/chess-board" />
-        <meta name="twitter:card" content="summary_large_image" />
+        <meta property="og:url" content="https://rafeeqchessboard.netlify.app/" />
+        <meta name="twitter:site" content="@RafeeqSyedAmjad" />
+        <meta name="twitter:title" content="Rafeeq's Chess Board" />
+        <meta name="twitter:description" content="Play chess on a board built with React and Tailwind CSS." />
       </Helmet>
       <div
         className={`flex flex-col items-center justify-center min-h-screen ${darkMode ? 'bg-gray-800 text-white' : 'bg-gray-100'
